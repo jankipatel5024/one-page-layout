@@ -1,0 +1,95 @@
+/* Resetting margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+html {
+    scroll-behavior: smooth; /* Smooth scroll between sections */
+}
+
+/* Header */
+#header {
+    background-color:burlywood;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+#header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#header nav ul li a:hover {
+    background-color: azure;
+    color: black;
+}
+
+/* Sections */
+.section {
+    padding: 100px 20px;
+    min-height: 200px;
+    text-align: center;
+}
+
+/* About Section */
+#about {
+    background-color: #a42323;
+}
+
+/* Services Section */
+#services {
+    background-color: #c45555;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #ac7a7a;
+}
+
+/* Pages section */
+#pages{
+    background-color: #a42323;
+
+}
+
+/* Blog section */
+#blog{
+    background-color: #ac7a7a;
+
+}
+
+/* Feedback section */
+#feedback{
+    background-color: #c45555;
+}
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    #header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
